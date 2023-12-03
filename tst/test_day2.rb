@@ -3,7 +3,7 @@ require_relative "../lib/input"
 require "test/unit"
 require 'pry-byebug'
 
-class Day1Test < Test::Unit::TestCase
+class Day2Test < Test::Unit::TestCase
   def test_example1
     input = <<~EOF
       Game 1: 3 blue, 4 red; 1 red, 2 green, 6 blue; 2 green
